@@ -3,7 +3,7 @@ import BlogCard from "./BlogCard";
 
 function Blog() {
   return (
-    <div className="flex flex-col pt-20 p-6">
+    <div className="flex flex-col pt-20 ">
       <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between pt-9 px-4">
         <h1 className="text-sm font-medium text-purple mb-4 sm:mb-0">Our Blog</h1>
         <button className="hidden sm:block text-white bg-purple rounded-lg p-2 text-sm hover:bg-mediumPurple transition duration-500 ease-in-out">
